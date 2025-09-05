@@ -12,11 +12,7 @@ const en: LocaleType = {
       ? `😆 Oops, there's an issue. No worries:
      \\ 1️⃣ New here? [Click to start chatting now 🚀](${SAAS_CHAT_UTM_URL})
      \\ 2️⃣ Want to use your own OpenAI resources? [Click here](/#/settings) to change settings ⚙️`
-      : `😆 Oops, there's an issue. Let's fix it:
-     \ 1️⃣ New here? [Click to start chatting now 🚀](${SAAS_CHAT_UTM_URL})
-     \ 2️⃣ Using a private setup? [Click here](/#/auth) to enter your key 🔑
-     \ 3️⃣ Want to use your own OpenAI resources? [Click here](/#/settings) to change settings ⚙️
-     `,
+      : `Using a private setup? [Click here](/#/auth) to enter your key 🔑`,
   },
   Auth: {
     Return: "Return",
@@ -26,9 +22,6 @@ const en: LocaleType = {
     Input: "access code",
     Confirm: "Confirm",
     Later: "Later",
-    SaasTips: "Too Complex, Use Immediately Now",
-    TopTips:
-      "🥳 NextChat AI launch promotion: Instantly unlock the latest models like OpenAI o1, GPT-4o, Claude-3.5!",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} messages`,
